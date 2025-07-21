@@ -1,0 +1,18 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "alex1701c.dev@gmx.net",
+                "Name": "Alex1701c"
+            }
+        ],
+        "Description": "Krunner plugin to search and open Zen browser bookmarks",
+        "EnabledByDefault": true,
+        "Icon": "bookmarks",
+        "License": "GPLv3",
+        "Name": "zen-bookmark",
+        "Version": "@CMAKE_PROJECT_VERSION@",
+        "Website": "https://github.com/alex1701c/zen-bookmark"
+    },
+    "X-KDE-ConfigModule": "krunner/kcms/kcm_zen_bookmark"
+}
