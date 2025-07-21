@@ -34,11 +34,13 @@ public:
     // Removed private window flag regex as not needed for bookmarks
 
     QString zenBookmarksPath;
+    QString zenFaviconsPath;
     QString zenIcon;
 // Removed matchActions as not needed for zen-bookmark
 
     QList<QueryMatch> createBookmarkMatches(const QString &filter);
     QueryMatch createMatch(const QString &text, const QMap<QString, QVariant> &data, float relevance);
+    QString getFaviconForUrl(const QString &url, const QString &tempFaviconsDbPath);
 
 public: // AbstractRunner API
     void reloadConfiguration() override;
